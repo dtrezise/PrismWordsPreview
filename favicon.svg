@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Prism Words">
+  <rect width="64" height="64" rx="8" fill="#111214"/>
+  <rect x="10" y="34" width="7" height="20" fill="#f13d49"/>
+  <rect x="22" y="24" width="7" height="30" fill="#f0c52f"/>
+  <rect x="34" y="14" width="7" height="40" fill="#42aa74"/>
+  <rect x="46" y="28" width="7" height="26" fill="#3776ca"/>
+</svg>

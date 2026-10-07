@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A public preview of Prism Words and the Little Miss Adventures Level 3 reading series." />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="theme-color" content="#101114" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <title>Prism Words | Little Miss Adventures</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="Prism Words home">
+        <span class="brand-mark" aria-hidden="true">
+          <i></i><i></i><i></i><i></i>
+        </span>
+        <span>Prism Words</span>
+      </a>
+      <nav>
+        <a href="#method">The method</a>
+        <a href="#books">The books</a>
+        <a href="#evidence">The evidence</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="hero-copy">
+          <p class="eyebrow">A reading system built for story</p>
+          <h1>Prism Words</h1>
+          <p class="hero-lede">
+            Vocabulary, grammar, and story grow together, book by book, so readers can keep moving forward without leaving the characters they love behind.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#books">Explore Level 3</a>
+            <a class="button button-secondary" href="#method">See the learning path</a>
+          </div>
+          <p class="preview-note">Development preview · 12-book Level 3 series</p>
+        </div>
+
+        <div class="hero-books" aria-label="Selected Level 3 manuscript pages">
+          <figure class="manuscript manuscript-one">
+            <img src="assets/book13-page1.png" alt="Opening manuscript page from The Yellow Envelope" />
+          </figure>
+          <figure class="manuscript manuscript-two">
+            <img src="assets/book18-page1.png" alt="Opening manuscript page from The People Puzzle" />
+          </figure>
+          <figure class="manuscript manuscript-three">
+            <img src="assets/book24-page1.png" alt="Opening manuscript page from Thank You, Map" />
+          </figure>
+        </div>
+      </section>
+
+      <section class="proof-strip" aria-label="Series validation summary">
+        <div><strong>12</strong><span>connected books</span></div>
+        <div><strong>190</strong><span>child-readable pages</span></div>
+        <div><strong>0</strong><span>unresolved tokens in current software review</span></div>
+        <div><strong>12/12</strong><span>review candidates, not released books</span></div>
+      </section>
+
+      <section class="section method-section" id="method">
+        <div class="section-heading">
+          <p class="eyebrow">The learning architecture</p>
+          <h2>One system. A full reading journey.</h2>
+          <p>
+            Prism keeps the product line coherent while each story stays playful. Every level coordinates vocabulary, sentence complexity, grammar, morphology, comprehension, and evidence.
+          </p>
+        </div>
+
+        <div class="level-track" aria-label="Prism level progression">
+          <article class="level-stage stage-red">
+            <span class="stage-number">01</span>
+            <h3>Foundation</h3>
+            <p>Levels 1-3</p>
+            <small>High-frequency language, concrete action, supported inference</small>
+          </article>
+          <article class="level-stage stage-orange">
+            <span class="stage-number">02</span>
+            <h3>Fluency</h3>
+            <p>Levels 4-6</p>
+            <small>Longer syntax, richer morphology, independent comprehension</small>
+          </article>
+          <article class="level-stage stage-blue">
+            <span class="stage-number">03</span>
+            <h3>Middle grades</h3>
+            <p>Levels 7-9</p>
+            <small>Academic language, emotional nuance, domain vocabulary</small>
+          </article>
+          <article class="level-stage stage-green">
+            <span class="stage-number">04</span>
+            <h3>Advanced</h3>
+            <p>Levels 10-13</p>
+            <small>Argument, rhetoric, research, literary and disciplinary reading</small>
+          </article>
+        </div>
+      </section>
+
+      <section class="section book-section" id="books">
+        <div class="section-heading book-heading">
+          <div>
+            <p class="eyebrow">Little Miss Adventures</p>
+            <h2>Level 3: the clue-use arc</h2>
+          </div>
+          <p>
+            Books 13-24 move from noticing clues to sequencing, comparing, timing, questioning, choosing, and finally synthesizing what the clues mean.
+          </p>
+        </div>
+
+        <div class="segmented-control" role="tablist" aria-label="Filter books by story movement">
+          <button class="segment is-active" type="button" role="tab" aria-selected="true" data-filter="all">All books</button>
+          <button class="segment" type="button" role="tab" aria-selected="false" data-filter="discover">Discover</button>
+          <button class="segment" type="button" role="tab" aria-selected="false" data-filter="practice">Practice</button>
+          <button class="segment" type="button" role="tab" aria-selected="false" data-filter="synthesize">Synthesize</button>
+        </div>
+
+        <div class="book-grid" id="book-grid" aria-live="polite"></div>
+      </section>
+
+      <section class="inside-section" id="evidence">
+        <div class="inside-copy">
+          <p class="eyebrow">Inside every book</p>
+          <h2>Story first. Evidence built in.</h2>
+          <p>
+            The child sees a clean story page. Behind it, Prism tracks what is new, what has already been learned, what is coming next, and how the text demonstrates its reading goals.
+          </p>
+          <ul class="evidence-list">
+            <li><span class="evidence-symbol" aria-hidden="true">01</span><span>Book-level vocabulary roles and three-book lookahead</span></li>
+            <li><span class="evidence-symbol" aria-hidden="true">02</span><span>Sentence, grammar, and text-complexity checks</span></li>
+            <li><span class="evidence-symbol" aria-hidden="true">03</span><span>Inflections, roots, affixes, and morphology evidence</span></li>
+            <li><span class="evidence-symbol" aria-hidden="true">04</span><span>Standards evidence candidates and educator-facing back matter</span></li>
+          </ul>
+        </div>
+
+        <div class="sample-page" aria-label="Example Prism reading page analysis">
+          <div class="sample-header">
+            <span>Book 24 · Page 14</span>
+            <span class="status-dot">Review candidate</span>
+          </div>
+          <blockquote>
+            <span class="word word-review">We</span>
+            <span class="word word-new">thank</span>
+            <span class="word word-review">you</span>
+            <span class="word word-review">for</span>
+            <span class="word word-review">the</span>
+            <span class="word word-review">map</span>
+            <span class="word word-review">and</span>
+            <span class="word word-review">path.</span>
+          </blockquote>
+          <div class="sample-key">
+            <span><i class="key-swatch swatch-new"></i>New focus</span>
+            <span><i class="key-swatch swatch-review"></i>Previously learned</span>
+          </div>
+          <div class="sample-meta">
+            <div><span>Sentence</span><strong>8 words</strong></div>
+            <div><span>Morphology</span><strong>thank / thanks</strong></div>
+            <div><span>Reader move</span><strong>Explain the evidence</strong></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="standards-section">
+        <div class="standards-inner">
+          <p class="eyebrow">Transparent by design</p>
+          <h2>One product system, many educator views.</h2>
+          <p>
+            Prism can report how a book relates to Common Core skills, Dolch and Fry coverage, morphology targets, and planning references for Lexile, DRA, and Guided Reading. These are transparent crosswalks, not claims of outside certification.
+          </p>
+          <div class="framework-row" aria-label="Framework crosswalk coverage">
+            <span>Common Core</span>
+            <span>Dolch</span>
+            <span>Fry 1,000</span>
+            <span>Lexile planning</span>
+            <span>DRA reference</span>
+            <span>Guided Reading</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="brand footer-brand">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+        <span>Prism Words</span>
+      </div>
+      <p>Little Miss Adventures · Development preview</p>
+      <nav class="footer-links" aria-label="Company policies">
+        <a href="evidence.html">Evidence</a>
+        <a href="accessibility.html">Accessibility</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </nav>
+    </footer>
+  </body>
+</html>
